@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'futurabold';
+    src: url('../fonts/futura_bold_font-webfont.eot');
+    src: url('..fonts/futura_bold_font-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/futura_bold_font-webfont.woff2') format('woff2'),
+         url('../fonts/futura_bold_font-webfont.woff') format('woff'),
+         url('../fonts/futura_bold_font-webfont.ttf') format('truetype'),
+         url('..fonts/futura_bold_font-webfont.svg#futurabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+body {background-color:white;}
+
+.wrapper {margin:40px;}
+
+nav     {background-color:#090909;
+         margin-bottom:50px;}
+
+.menu a {font-family:'futurabold';
+         font-size:25px;
+         font-weight:500;
+         color:white;
+         padding-top:7px;}
+
+h1      {font-family:'futurabold';
+         font-size:45px;
+         font-weight:500;
+         color:#090909;
+         text-align:center;
+         margin-bottom:25px;}
+
+h2      {font-family:'futurabold';
+         font-size:30px;
+         color:#090909;}
+
+h3      {font-family:'helvetica';
+         font-size: 20px;
+         font-weight:400;
+         color:#090909;
+         word-spacing:2px;
+         text-align:center;
+         margin-bottom:50px;}
+
+h4      {font-family:'verdana';
+         font-size:15px;
+         font-weight:600;
+         color:#090909;
+         margin-bottom:15px;}
+
+
+.buyit {width:80px;
+        height:45px;
+        background-color:#090909;
+        color:white;
+        padding:13px 0 0 12px;
+        font-size:12px;
+        font-weight: 700;
+        font-family:'helvetica';
+        border-radius: 20px;
+        margin: 20px 0 30px -5px;}
+
+.buyit a:link {color:white;}
+.buyit a:visited {color:white;}
+.buyit a:hover {color:greenyellow;}
+.buyit a:active {color:red;}
+
+.horizontalrule {border-top:solid #d8d8d8 1px;
+                 padding:15px 0 5px 0;}
+
+.bodycopy  {font-family:'arial';
+            font-size: 15px;
+            color:#090909;
+            margin-bottom:40px;}
+ 
+.graphicsposition {margin-bottom:40px;}
+
+
+
+.o-wrapperstyle {margin:50px 250px 0px 250px; 
+                 border:solid #d8d8d8 2px;}
+
+footer {padding:20px 20px 10px 20px;
+        font:10px 'arial';
+        background-color:#090909;
+        color:white;}
+
+footer a:link {color:white;}
+footer a:visited {color:white;}
+footer a:hover {color:greenyellow;}
+footer a:active {color:red;}
